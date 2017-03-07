@@ -22,7 +22,7 @@ public class AuthenticationFilter implements Filter {
             Arrays.asList("", "/login.jsp","/submit")));
 
     public void init(FilterConfig var1) throws ServletException{
-
+        //Nothing to do
     }
 
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException{
