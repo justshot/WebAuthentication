@@ -23,6 +23,7 @@ public class AuthenticationFilter implements Filter {
 
     public void init(FilterConfig var1) throws ServletException{
         //Nothing to do
+        System.out.println("init");
     }
 
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException{
